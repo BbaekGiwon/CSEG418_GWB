@@ -1,0 +1,31 @@
+# Build artifacts (C++)
+Debug/
+Release/
+*.exe
+*.pdb
+*.obj
+*.idb
+
+# Visual Studio
+.vs/
+
+# OpenCV binaries (use system-installed OpenCV)
+OPENCV/x86/
+
+# Python generated outputs
+keypoints/
+scores/
+*.pkl
+*.npy
+
+# Graph outputs
+graph/
+
+# Archives
+*.zip
+*.rar
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
