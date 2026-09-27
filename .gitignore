@@ -29,3 +29,19 @@ graph/
 __pycache__/
 *.pyc
 *.pyo
+
+# Local environments and machine-specific settings
+.venv/
+venv/
+*.vcxproj.user
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Install the complete OpenCV SDK locally
+OPENCV/
+
+# Runtime output (keep the existing graphs/ experiment figures)
+outputs/
